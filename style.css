@@ -1,15 +1,14 @@
 :root{
     --background-color: #15422D;
     --red-color: #CE282C;
-<<<<<<< Updated upstream
     --golden-color: #FFC848;
-}
-=======
 }
 
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
 }
 
 body{
@@ -18,13 +17,62 @@ justify-content: center;
 align-items:center;
 height: 100vh;
 background-color: var(--background-color);
-font-family: Arial, sans-serif;
 overflow: hidden;
+background-image: url('./assets/freepik-export-202410202057134GWY\ 1.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
-.card{
+
+main{
     background: var(--red-color);
     width: 80%;
     height: 85%;
     border-radius: 12px;
+    padding: 24px;
+    background-image: url('./assets/rb_561 1.png');
+    background-position:center ;
+    background-size: contain;
 }
->>>>>>> Stashed changes
+
+main header p{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+main section div h1{
+    font-family: 'Tangerine';
+    color: var(--golden-color);
+    font-size: 128px;
+}
+
+main section div p{
+    color: white;
+
+    &:first-child{
+        font-size: 20px;
+    }
+    font-size: 14px;
+}
+
+main section p{
+    color: white;
+    font-size: 12px;
+}
+
+main button{
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--red-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+
+    &:hover{
+        filter: brightness(95%);
+    }
+}
