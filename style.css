@@ -1,5 +1,30 @@
 :root{
     --background-color: #15422D;
     --red-color: #CE282C;
+<<<<<<< Updated upstream
     --golden-color: #FFC848;
 }
+=======
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items:center;
+height: 100vh;
+background-color: var(--background-color);
+font-family: Arial, sans-serif;
+overflow: hidden;
+}
+.card{
+    background: var(--red-color);
+    width: 80%;
+    height: 85%;
+    border-radius: 12px;
+}
+>>>>>>> Stashed changes
